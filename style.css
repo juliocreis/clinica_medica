@@ -1,8 +1,11 @@
-@import url(./styles/avatar.css);
+@import url(./styles/home.css);
+@import url(./styles/consultas.css);
 
 :root {
     --cor-preta: #464646;
     --cor-cinza: #A3A3A3;
+    --cor-cinza-secundario: #F6F6F6;
+    --cor-branca: white;
 }
 
 
@@ -17,3 +20,8 @@ body {
     background-color: #F6F6F6;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 0 16px;
+}

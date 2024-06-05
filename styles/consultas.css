@@ -1,0 +1,71 @@
+.consultas {
+    margin-top: 1.37rem;
+}
+
+.consultas__data {
+    display: flex;
+    align-items: center;
+    height: 46px;
+}
+
+.paciente {
+    background-color: var(--cor-branca);
+    border-radius: 8px;
+    margin: 0.75rem 1rem 1rem 1rem;
+}
+
+.paciente-info {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.paciente-foto {
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+    margin: 0.75rem 1rem 1rem 1rem;
+}
+
+.paciente-nome-imagem {
+    margin-top: 1rem;
+}
+
+.paciente-nome {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--cor-preta);
+}
+
+.paciente-local-imagem {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1.33rem;
+    padding-top: 0.29rem;
+}
+
+.paciente-local {
+    font-size: 12px;
+    color: var(--cor-cinza);
+}
+
+.arredondamento {
+    border-radius: 50%;
+    padding: 0.58rem; 
+    background-color: #f6f6f6;
+    margin: 1rem 0 0 5.68rem;
+}
+
+.linha {
+    background-color: var(--cor-preta);
+    opacity: 0.1;
+    height: 1px;
+    border: none;
+    margin: 0;
+}
+
+.paciente-horario {
+    font-size: 12px;
+    font-weight: 500;
+}
