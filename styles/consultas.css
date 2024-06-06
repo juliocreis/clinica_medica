@@ -1,20 +1,17 @@
-.consultas {
-    margin-top: 1.37rem;
-}
-
 .consultas__data {
     display: flex;
     align-items: center;
     height: 46px;
 }
 
-.paciente {
-    background-color: var(--cor-branca);
-    border-radius: 8px;
-    margin: 0.75rem 1rem 1rem 1rem;
+.consultas ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.paciente-info {
+/* .paciente-info {
     display: flex;
     align-items: center;
     margin-top: 1rem;
@@ -68,4 +65,4 @@
 .paciente-horario {
     font-size: 12px;
     font-weight: 500;
-}
+} */
