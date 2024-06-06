@@ -2,6 +2,7 @@
     display: flex;
     align-items: center;
     height: 46px;
+    font-weight: 700;
 }
 
 .consultas ul {
@@ -9,6 +10,132 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.consulta__card {
+    background: var(--cor-branca);
+    display: flex;
+    flex-direction: column;
+    width: 328px;
+    height: 160px;
+    padding: 16px 16px 0;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+
+.consulta__card-titulo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.consulta__card-paciente {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.consulta__card-paciente > img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 16px;
+}
+
+.consulta__card-paciente > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.consulta__card-titulo .consulta__card-chat {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: none;
+    background-image: url(../assets/chat1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.consulta__card-paciente strong {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.consulta__card-paciente span {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    color: var(--cor-cinza);
+}
+
+.consulta__card-paciente span > span { /* Bloco para adicionar a imagem da câmera */
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.consulta__card-paciente span > span.camera {
+    background-image: url(../assets/Camera.svg);
+}
+
+.consulta__card-paciente span > span.mapa {
+    background-image: url(../assets/pin.svg);
+}
+
+.consulta__card-conteudo {
+    display: flex;
+    flex-direction: column;
+    padding-top: 9px;
+    width: 100%;
+    height: 82px;
+    border-top: 1px solid #46464619;
+}
+
+.consulta__card-conteudo p{
+    font-size: 12px;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+.consulta__card-acoes{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.consulta__card-acoes button {
+    min-width: 140px;
+    width: 100%;
+    height: 48px;
+    border-radius: 8px;
+    margin-right: 16px;
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--cor-branca);
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.consulta__card-acoes button :only-of-type {
+    margin: 0;
+}
+
+.consulta__card-acoes .btn-primario {
+    background-color: #4894FF;
+}
+
+.consulta__card-acoes .btn-secundario {
+    background-color: #FFB050;
+}
+
+.consulta__card-acoes .btn-terciario {
+    color: var(--cor-preta);
+    background-color: var(--cor-branca);
+    border: 1px solid #ECECEC;
 }
 
 /* .paciente-info {

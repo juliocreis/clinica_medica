@@ -12,10 +12,8 @@ section.home {
 }
   
 .home .home__info strong {
-    font-size: 1.3rem;
+    font-size: 22px;
     font-weight: 700;
-    color: var(--cor-preta);
-    margin-bottom: 0.5rem;
 }
   
 .home .home__info p {
